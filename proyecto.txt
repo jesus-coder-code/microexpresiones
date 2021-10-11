@@ -6,3 +6,10 @@ https://www.youtube.com/watch?v=FYWstOitf-Q&list=PLyDH8KT4GrNd7KMFIgHuxpcklUJyfk
 
 face landmarks
 https://www.youtube.com/watch?v=MrRGVOhARYY
+
+emotion detection
+https://github.com/pypower-codes/Emotion-Detection
+https://www.youtube.com/watch?v=PulKlAZRoAY
+
+malla facial
+https://www.youtube.com/watch?v=B_2deDeaYsU&t=851s
