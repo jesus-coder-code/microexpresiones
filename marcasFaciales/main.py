@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import math
 
-captura = cv2.VideoCapture(1)
+captura = cv2.VideoCapture(0)
 captura.set(3, 1280)
 captura.set(3, 720)
 
@@ -25,7 +25,7 @@ while True:
 
     if res.multi_face_landmarks:
         for rostro in res.multi_face_landmarks:
-            mpDibujar.draw_landmarks(frame, rostro, mpMalla.FACE_CONTOURS, ConfigDibujo, ConfigDibujo)
+            mpDibujar.draw_landmarks(frame, rostro, mpMalla.FACEMESH_CONTOURS, ConfigDibujo, ConfigDibujo)
 
             for id, puntos in enumerate(rostro.landmark):
                 al, an, c = frame.shape
