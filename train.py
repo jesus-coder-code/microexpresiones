@@ -44,8 +44,8 @@ model = Model(inputs = MobileNet.input, outputs = FC_Head)
 
 print(model.summary())
 
-train_data_dir = '/Users/durgeshthakur/Deep Learning Stuff/Emotion Classification/fer2013/train'
-validation_data_dir = '/Users/durgeshthakur/Deep Learning Stuff/Emotion Classification/fer2013/validation'
+train_data_dir = '/Users/naren/OneDrive/Documents/UNIVERSIDAD/train'
+validation_data_dir = '/Users/naren/OneDrive/Documents/UNIVERSIDAD/validation'
 
 train_datagen = ImageDataGenerator(
                     rescale=1./255,
